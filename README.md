@@ -2,7 +2,6 @@
 
 A university robotics exercise using offline laser-range scan data. The scripts identify the closest positive range reading in a scan and calculate its corresponding angle. A separate class-based implementation supports loading successive scans from a data file.
 
-> **Scope:** The supplied files process saved data in Python. They do not currently subscribe to a live ROS 2 `sensor_msgs/LaserScan` topic or include a ROS 2 node/package wrapper.
 
 ## What it demonstrates
 
